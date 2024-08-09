@@ -21,4 +21,4 @@ jobs:
       continue-on-error: true
     - name: run job
       run: bash -x run-job.sh ../src/job.yml
-      working-directory: cli/jobs/pipelines/exercise-02
+      working-directory: cli
